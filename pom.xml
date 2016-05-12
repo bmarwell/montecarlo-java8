@@ -6,6 +6,7 @@
   <packaging>pom</packaging>
   <modules>
   	<module>pi</module>
+  	<module>dicerollingdrinking</module>
   </modules>
   <dependencyManagement>
   	<dependencies>
