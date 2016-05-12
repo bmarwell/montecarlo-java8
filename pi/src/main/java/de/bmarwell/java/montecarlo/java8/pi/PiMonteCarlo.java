@@ -53,6 +53,13 @@ public class PiMonteCarlo {
     LOG.info("Pi is about [{}].", hits * 4.0 / tries);
   }
 
+  /**
+   * MonteCarlo-Algorithm: If dot is on a quarter circle, we count it.
+   *
+   * @param random
+   *          a random instance.
+   * @return true, if hit.
+   */
   public static boolean isHit(Random random) {
     double x = random.nextDouble();
     double y = random.nextDouble();
