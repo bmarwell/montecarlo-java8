@@ -64,7 +64,7 @@ public class PiMonteCarlo {
     double x = random.nextDouble();
     double y = random.nextDouble();
 
-    return Math.hypot(x, y) <= 1;
+    return Math.hypot(x, y) <= 1.0;
   }
 
 }
