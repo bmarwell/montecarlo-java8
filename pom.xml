@@ -7,6 +7,8 @@
   <modules>
   	<module>pi</module>
   	<module>dicerollingdrinking</module>
+  	<module>millerrabintest</module>
+  	<module>common-jsr305</module>
   </modules>
   <dependencyManagement>
   	<dependencies>
